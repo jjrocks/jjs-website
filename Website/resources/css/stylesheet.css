@@ -4,12 +4,7 @@ body
 }
 img
 {
-	height: 100%;
-	transform: skew(20deg); 
-    -o-transform: skew(20deg); 
-    -moz-transform: skew(20deg); 
-    -webkit-transform: skew(20deg);
-    transform-origin: inherit;
+
 }
 .trapezoid
 {
@@ -26,9 +21,23 @@ img
 {
 	width:20%; 
     height:200px; 
+    position: absolute;
 	overflow: hidden;
 	position: relative;
 	-webkit-transform: skew(-20deg);
+	float: left;
+}
+.imageTrapezoid
+{
+	height: 100%;
+	background-image: url("file:///F:/Dropbox/JJ's%20Website/resources/img/MountainMe.jpg");
+	background-size: cover;
+	transform: skew(20deg); 
+    -o-transform: skew(20deg); 
+    -moz-transform: skew(20deg); 
+    -webkit-transform: skew(20deg);
+    transform-origin: 100% 0;
+    -webkit-transform-origin: 100% 100%;
 }
 
 .backimage
