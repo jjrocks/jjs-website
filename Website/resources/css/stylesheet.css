@@ -2,21 +2,6 @@ body
 {
 	margin: 0;
 }
-img
-{
-
-}
-.trapezoid
-{
-	width:20%; 
-    height:100px; 
-    border: 0 solid #000; 
-    transform: skew(-20deg); 
-    -o-transform: skew(-20deg); 
-    -moz-transform: skew(-20deg); 
-    -webkit-transform: skew(-20deg);
-    float: left;
-}
 .trapezoid2
 {
 	width:20%; 
@@ -29,9 +14,7 @@ img
 }
 .imageTrapezoid
 {
-	height: 100%;
-	background-image: url("file:///F:/Dropbox/JJ's%20Website/resources/img/MountainMe.jpg");
-	background-size: cover;
+	width: 150%;
 	transform: skew(20deg); 
     -o-transform: skew(20deg); 
     -moz-transform: skew(20deg); 
@@ -40,32 +23,7 @@ img
     -webkit-transform-origin: 100% 100%;
 }
 
-.backimage
-{
-    width: 100%; 
-    height: 100%; 
-	background-image: url("file:///F:/Dropbox/JJ's%20Website/resources/img/MountainMe.jpg");
-	background-size: cover;
-	/*
-	transform: skew(20deg); 
-    -o-transform: skew(20deg); 
-    -moz-transform: skew(20deg); 
-    -webkit-transform: skew(20deg);
-    */
-}
 .clearline
 {
 	clear: both;
-}
-.lefttrapezoid
-{
-	width: 20%;
-	border-top: 100px solid red;
-	border-right: 30px solid transparent;
-	border-left: 30px solid red;
-	float: left;
-}
-.righttrapezoid
-{
-
 }
