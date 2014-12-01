@@ -33,7 +33,7 @@ body
 	background-size: cover;
 	/*background-image: url(http://i.imgur.com/bqOdXeM.jpg);*/
 	background-color: #009688;
-	height: 10vh;
+	/*height: 10vh;*/
 	max-height:  90%;
 	color: #FFF;
 }
@@ -51,4 +51,8 @@ body
 .introtext span
 {
 	font-size: 0.5em;
+}
+.projectsContainer
+{
+
 }
