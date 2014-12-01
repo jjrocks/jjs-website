@@ -32,10 +32,11 @@ body
 {
 	background-size: cover;
 	/*background-image: url(http://i.imgur.com/bqOdXeM.jpg);*/
-	background-color: #009688;
+	background-color: #4CAF50;
 	/*height: 10vh;*/
 	max-height:  90%;
 	color: #FFF;
+	margin: 0;
 }
 
 .introtext
@@ -54,5 +55,27 @@ body
 }
 .projectsContainer
 {
+	background-color: #F44336;
+	margin: 5px;
+}
+.project
+{
+	background-color: #E53935;
+}
 
+.Jobs
+{
+	background-color: #FFC107;
+	color: #000;
+}
+
+.job
+{
+	background-color: #FFB300;
+}
+html
+{
+	background-color: #43A047;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
 }
