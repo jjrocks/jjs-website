@@ -27,3 +27,27 @@ body
 {
 	clear: both;
 }
+
+.intro
+{
+	background-size: cover;
+	background-image: url(http://i.imgur.com/bqOdXeM.jpg);
+	height: 80vh;
+	max-height:  90%;
+	color: #FFF;
+}
+
+.introtext
+{
+	color: #FFF;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 20vw;
+	font-size: 2em;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.introtext span
+{
+	font-size: 0.5em;
+}
