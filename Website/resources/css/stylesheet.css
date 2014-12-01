@@ -31,8 +31,9 @@ body
 .intro
 {
 	background-size: cover;
-	background-image: url(http://i.imgur.com/bqOdXeM.jpg);
-	height: 80vh;
+	/*background-image: url(http://i.imgur.com/bqOdXeM.jpg);*/
+	background-color: #009688;
+	height: 10vh;
 	max-height:  90%;
 	color: #FFF;
 }
@@ -42,7 +43,7 @@ body
 	color: #FFF;
 	margin-top: auto;
 	margin-bottom: auto;
-	margin-left: 20vw;
+	margin-left: 10vw;
 	font-size: 2em;
 	font-family: 'Open Sans', sans-serif;
 }
