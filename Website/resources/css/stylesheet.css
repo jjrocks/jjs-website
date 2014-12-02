@@ -31,11 +31,6 @@ h1
 	min-width: 300px;
 }
 
-.clearline
-{
-	clear: both;
-}
-
 .intro
 {
 	background-size: cover;
@@ -65,8 +60,9 @@ h1
 .projectsContainer
 {
 	/*background-color: #F44336;*/
-	margin: 5px;
+	margin: auto;
 	/*border-width: 2px;*/
+	align-content: space-around;
 }
 .project
 {
@@ -85,10 +81,16 @@ h1
 	margin-right: -5px;
 }
 
+.center
+{
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .Jobs
 {
-	/*background-color: #FFC107;*/
-	/*color: #000;*/
+	/*background-color: #FFC107;
+	/*color: #000;
 }
 
 .job
