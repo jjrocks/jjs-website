@@ -1,26 +1,19 @@
+html
+{
+	background-color: #43A047;
+	font-family: 'Open Sans', sans-serif;
+	color: #FFF;
+	margin: 0;
+}
+
 body
 {
 	margin: 0;
 }
-.trapezoid2
+
+.insideText
 {
-	width:20%; 
-    height:200px; 
-    position: absolute;
-	overflow: hidden;
-	position: relative;
-	-webkit-transform: skew(-20deg);
-	float: left;
-}
-.imageTrapezoid
-{
-	width: 150%;
-	transform: skew(20deg); 
-    -o-transform: skew(20deg); 
-    -moz-transform: skew(20deg); 
-    -webkit-transform: skew(20deg);
-    transform-origin: 100% 0;
-    -webkit-transform-origin: 100% 100%;
+	margin: 0 20vw;
 }
 
 .clearline
@@ -36,7 +29,6 @@ body
 	/*height: 10vh;*/
 	max-height:  90%;
 	color: #FFF;
-	margin: 0;
 }
 
 .introtext
@@ -72,10 +64,4 @@ body
 .job
 {
 	background-color: #FFB300;
-}
-html
-{
-	background-color: #43A047;
-	font-family: 'Open Sans', sans-serif;
-	color: #FFF;
 }
