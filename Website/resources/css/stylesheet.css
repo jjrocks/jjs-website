@@ -29,7 +29,8 @@ body
 	/*background-image: url(http://i.imgur.com/bqOdXeM.jpg);*/
 	background-color: #4CAF50;
 	/*height: 10vh;*/
-	padding: 30vh;
+	padding-top: 20vh;
+	padding-bottom: 50px;
 	max-height:  90%;
 	color: #FFF;
 }
