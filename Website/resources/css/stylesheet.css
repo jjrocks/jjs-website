@@ -23,13 +23,6 @@ h1
 {
 	text-align: center;
 }
-.insideText
-{
-	margin: 0 15vw;
-	background-color: #43A047;
-	padding: 20px;
-	min-width: 300px;
-}
 
 .intro
 {
@@ -57,16 +50,27 @@ h1
 {
 	font-size: 0.5em;
 }
+
+.insideText
+{
+	margin: 0 15vw;
+	background-color: #43A047;
+	/*padding: 20px;*/
+	min-width: 300px;
+	text-align: center;
+}
+
 .projectsContainer
 {
-	/*background-color: #F44336;*/
-	margin: auto;
+	background-color: #F44336;
 	/*border-width: 2px;*/
-	align-content: space-around;
+	text-align: center;
+	padding: 5px;
+
 }
 .project
 {
-	/*background-color: #E53935;*/
+	background-color: #E53935;
 	display: inline-block;
 	max-width: 50%;
 	border-width: 1px;
@@ -78,7 +82,8 @@ h1
 	text-align: justify;
 	padding: 15px;
 	margin-top: -1px;
-	margin-right: -5px;
+	margin-right: -2px;
+	margin-left: -3px;
 }
 
 .center
@@ -90,13 +95,57 @@ h1
 .Jobs
 {
 	/*background-color: #FFC107;
-	/*color: #000;
+	/*color: #000*/;
 }
 
 .job
 {
 	/*background-color: #FFB300;*/
 }
+
+.skillsContainer
+{
+	text-align: center;
+}
+
+.skill
+{
+	display: inline-block;
+	background-color: #9C27B0;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 3px 1px;
+}
+
+.langContainer
+{
+	text-align: center;
+}
+
+.languages
+{
+	display: inline-block;
+	background-color: #3F51B5;
+	border-radius: 3px;
+	padding: 10px;
+	margin: 3px 1px;
+}
+
+.proficient
+{
+
+}
+
+.average
+{
+	background-color: #2196F3;
+}
+
+.basic
+{
+	background-color: #64B5F6;
+}
+
 @media(max-width: 500px)
 {
 	.insideText
