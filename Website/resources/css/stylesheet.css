@@ -1,6 +1,6 @@
 html
 {
-	background-color: #43A047;
+	/*background-color: #43A047;*/
 	font-family: 'Open Sans', sans-serif;
 	color: #FFF;
 	margin: 0;
@@ -13,7 +13,9 @@ body
 
 .insideText
 {
-	margin: 0 20vw;
+	margin: 0 15vw;
+	background-color: #43A047;
+	padding: 20px;
 }
 
 .clearline
@@ -27,6 +29,7 @@ body
 	/*background-image: url(http://i.imgur.com/bqOdXeM.jpg);*/
 	background-color: #4CAF50;
 	/*height: 10vh;*/
+	padding: 30vh;
 	max-height:  90%;
 	color: #FFF;
 }
@@ -47,21 +50,21 @@ body
 }
 .projectsContainer
 {
-	background-color: #F44336;
+	/*background-color: #F44336;*/
 	margin: 5px;
 }
 .project
 {
-	background-color: #E53935;
+	/*background-color: #E53935;*/
 }
 
 .Jobs
 {
-	background-color: #FFC107;
+	/*background-color: #FFC107;*/
 	color: #000;
 }
 
 .job
 {
-	background-color: #FFB300;
+	/*background-color: #FFB300;*/
 }
