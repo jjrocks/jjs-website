@@ -57,12 +57,14 @@ body
 .project
 {
 	/*background-color: #E53935;*/
+	display: inline-block;
+	max-width: 50%;
 }
 
 .Jobs
 {
 	/*background-color: #FFC107;*/
-	color: #000;
+	/*color: #000;*/
 }
 
 .job
