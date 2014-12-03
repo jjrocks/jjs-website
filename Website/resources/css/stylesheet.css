@@ -54,23 +54,42 @@ h1
 .insideText
 {
 	margin: 0 15vw;
-	background-color: #43A047;
 	/*padding: 20px;*/
 	min-width: 300px;
 	text-align: center;
 }
 
+.insideText h1
+{
+	/*margin-top: 0px;*/
+}
+
+.summary
+{
+	background-color: #43A047;
+	padding-bottom: 30px;
+
+}
+
 .projectsContainer
 {
-	background-color: #F44336;
+	background-color: #03A9F4;
 	/*border-width: 2px;*/
 	text-align: center;
-	padding: 5px;
-
+	padding: 0px 5px 30px 5px;
+	padding-bottom: 30px;
+	margin-top: 20px;
+	box-shadow: 0px 10px 15px #888888;
+}
+.projectsContainer h1
+{
+	/*background-color: #FFF;*/
+	margin-top: 30px;
+	padding-top: 10px;
 }
 .project
 {
-	background-color: #E53935;
+	background-color: #039BE5;
 	display: inline-block;
 	max-width: 50%;
 	border-width: 1px;
@@ -106,6 +125,7 @@ h1
 .skillsContainer
 {
 	text-align: center;
+	background-color: #009688;
 }
 
 .skill
@@ -120,6 +140,13 @@ h1
 .langContainer
 {
 	text-align: center;
+	background-color: #009688;
+}
+
+.langContainer h1
+{
+	margin-top: 0px;
+	padding-top: 20px;
 }
 
 .languages
@@ -146,6 +173,13 @@ h1
 	background-color: #64B5F6;
 }
 
+.footer
+{
+	background-color: #4CAF50;
+	margin-top: 20px;
+	text-align: center;
+	height: 100px;
+}
 @media(max-width: 500px)
 {
 	.insideText
