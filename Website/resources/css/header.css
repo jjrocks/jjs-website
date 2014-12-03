@@ -7,25 +7,23 @@ body
 .button_container
 {
 	width: 100%;
-	height: 30vh;
 	max-height: 300px;
-	display: table;
+	/*opacity: .5;*/
 }
 .button
 {
 	width: 20%;
 	padding: 20px 0;
-	background-color: #009688;
+	background-color: #43A047;
 	float: left;
 	color: #FFFFFF;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
 	vertical-align: middle;
-
 	display: table-cell;
 }
 .button:hover
 {
-	background-color: #00897B;
+	background-color: #388E3C;
 }

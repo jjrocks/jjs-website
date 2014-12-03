@@ -2,22 +2,30 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="resources/css/stylesheet.css" />
+		<link rel="stylesheet" href="resources/css/header.css" />
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
 		<div class="intro">
 			<div class="introtext">
-			JJ Wanda <br>
-			<span>Software Engineer | Project Manager | Super Nerd <!--Coolegs guy ever--></span>
+				JJ Wanda <br>
+				<span>Software Engineer | Project Manager | Super Nerd <!--Coolegs guy ever--></span>
+			</div>
+			<div class="button_container">
+					<a href="jjwanda.com"><div class="button">Home</div></a>
+					<a href="#about"><div class="button">About</div></a>
+					<a href="projects/index.html"><div class="button">Projects</div></a>
+					<a href="resume/index.html"><div class="button">Resume</div></a>
+					<a href="blog/index.html"><div class="button">Blog</div></a>
 			</div>
 		</div>
+		<div><?php include 'header.php'; ?></div>
 		<div class="insideText">
-			<div class="summary">
+			<div class="summary" id="about">
 				<h1>About Me</h1>
 				<p>Hello. I'm a 20 year old Lafayette College Student studying Computer Science and Economics.<br>
 				Below is a list of the projects and jobs I've done and had in the recent years. Each projects has more info inside of it.<br>
-				LinkedIn | Facebook | G+</p>
-
+				<a href="https://www.linkedin.com/pub/jj-wanda/32/79/696">LinkedIn</a> | <a href="https://www.facebook.com/jjwanda">Facebook</a> | <a href="https://plus.google.com/100807731447741955328/about">G+</a></p>
 			</div>
 			<div class="projectsContainer">
 				<h1>Projects</h1>
@@ -35,7 +43,8 @@
 					</div>
 				</a>
 				<div class="project">
-					<h2>IOU (Late December)</h2>
+					<h2>IOU</h2>
+					<h3>Release Date: December 25, 2014</h3>
 					<p>An Android app that helps you keep track of money.</p>
 				</div>
 				<a href="projects/simon.html">
@@ -78,17 +87,21 @@
 						<p>I act as a liason between Google and Lafayette College. We're currently working on a huge Google Drive Campaign for Februrary</p>
 					</div>
 				</a>
-				<div class="project job">
-					<h2>Lafayette</h2>
-					<h3>Resident Advisor (Current)</h3>
-					<p>I create at least three floor events per month as well as resolve any floor conflicts while creating a floor community</p>
-				</div>
+				<a href="http://reslife.lafayette.edu/student-staff/">
+					<div class="project job">
+						<h2>Lafayette</h2>
+						<h3>Resident Advisor (Current)</h3>
+						<p>I create at least three floor events per month as well as resolve any floor conflicts while creating a floor community</p>
+					</div>
+				</a>
+				<!--
 				<div class="project job">
 					<h2>Carney Inc</h2>
-					<h3>Software Development Intern</h3>
-				</div>
+					<h3>Software Engineer Intern</h3>
+					<p>Led a team of four ot develop a 3D Inspection Simulator in Unity</p>
+				</div>-->
 				<div class="project job">
-					<h2>More</h2>
+					<h2>More (Coming Soon)</h2>
 				</div>
 			</div>
 			<div class="skillsContainer">
