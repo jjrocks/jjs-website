@@ -141,12 +141,12 @@ h1
 {
 	text-align: center;
 	background-color: #009688;
+	padding: 30px 0px;
 }
 
 .langContainer h1
 {
 	margin-top: 0px;
-	padding-top: 20px;
 }
 
 .languages
