@@ -7,3 +7,11 @@ body
 {
 	background-color: #ececec
 }
+
+.subsetcontainer
+{
+	margin: 0 auto;
+	display: inline-block;
+	padding: 30px 10px;
+	font-size: 12em;
+}
