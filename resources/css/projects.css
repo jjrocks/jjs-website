@@ -8,3 +8,10 @@ h1
 {
 	background-color: #03A9F4;
 }
+
+.pcontainer
+{
+	width: 100%;
+	background-color: #03A9F4;
+	color: #FFF;
+}
