@@ -1,0 +1,30 @@
+body
+{
+	margin: 0 auto;
+	/*width: 90%;*/
+}
+
+h1
+{
+	background-color: #03A9F4;
+}
+h3
+{
+	padding: 0px 0px;
+}
+header
+{
+	color: #FFF;
+	padding: 10px 0px;
+}
+
+.pcontainer
+{
+	width: 100%;
+	color: #FFF;
+	background-color: #03A9F4;
+}
+.headsection
+{
+	background-color: #03A9F4;
+}
